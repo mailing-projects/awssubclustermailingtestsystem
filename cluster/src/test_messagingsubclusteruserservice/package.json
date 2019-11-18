@@ -1,0 +1,20 @@
+{
+  "name": "test_messagingsubclusteruserservice",
+  "version": "1.0.0",
+  "description": "MessagingSubclusterUserService",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "ecosystem:allex",
+    "Service",
+    "MessagingSubclusterUser"
+  ],
+  "author": "HERS Belgrade",
+  "license": "ISC"
+}

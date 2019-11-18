@@ -1,0 +1,1 @@
+ALLEX.execSuite.registry.registerClientSide('test__testmailingclusterusers_clusterservice',require('./websinkmapcreator')(ALLEX, ALLEX.execSuite.registry.getClientSide('allex_clusterrepresentativeuserservice')));

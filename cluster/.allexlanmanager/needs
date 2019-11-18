@@ -1,0 +1,63 @@
+[{
+  "modulename": "allex_usersessionsservice",
+  "instancename": "ClusterSessions",
+  "storage": {
+    "modulename": "allex_mongostorage",
+    "propertyhash": {
+      "server": "127.0.0.1",
+      "database": "testmailingcluster",
+      "table": "sessions",
+      "_idname": "session"
+    }
+  }
+},{
+  "modulename":"allex_userresolverservice",
+  "instancename":"ClustersDBResolver",
+  "propertyhash": {
+    "data": {
+      "modulename": "allex_genericuserdataservice",
+      "storage": {
+        "modulename": "allex_mongostorage",
+        "propertyhash": {
+          "server": "127.0.0.1",
+          "database": "testmailingcluster",
+          "table": "users",
+          "_idname": "username"
+        }
+      }
+    }
+  }
+},{
+  "modulename": "allex_entrypointservice",
+  "instancename": "ClusterEntryPoint",
+  "propertyhash": {
+    "port": 8301,
+    "target": "instancename:Clusters",
+    "allowAnonymous": true,
+    "strategies": {
+      "remote":{
+        "sinkname":"ClustersDBResolver",
+        "identity":{
+          "role": "user",
+          "name": "user"
+        }
+      }
+    },
+    "sessionsDB": "ClusterSessions"
+  }
+},{
+  "modulename":"allex_clusterhotelservice",
+  "instancename":"Clusters",
+  "propertyhash": {
+    "usermodule": {
+      "username": "test",
+      "namespace": "testmailingclusterusers",
+      "basename": ""
+    }
+  }
+},{
+  "modulename": "test_messagingsubclusteruserservice",
+  "instancename": "Consumer",
+  "propertyhash": {
+  }
+}]

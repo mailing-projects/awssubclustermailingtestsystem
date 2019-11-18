@@ -1,0 +1,18 @@
+[
+{"username": "allex", "namespace": null, "group": "services", "type": "npm", "user": "git", "server": "github.com", "repogroup": "allex-services"},
+{"username": "allex", "namespace": null, "group": "libs", "type": "npm", "user": "git", "server": "github.com", "repogroup": "allex-libs"},
+{"username": "allex", "namespace": null, "group": "storages", "type": "npm", "user": "git", "server": "github.com", "repogroup": "allex-storages"},
+{"username": "allex", "namespace": null, "group": "parsers", "type": "npm", "user": "git", "server": "github.com", "repogroup": "allex-parsers"},
+{"username": "allex", "namespace": null, "group": "lowlevellibs", "type": "git", "user": "git", "server": "github.com", "repogroup": "allex-lowlevel-libs"},
+{"username": "allex", "namespace": null, "group": "sdklibs", "type": "git", "user": "git", "server": "github.com", "repogroup": "allex-sdk-libs"},
+{"username": "allex", "namespace": null, "group": "cores", "type": "git", "user": "git", "server": "github.com", "repogroup": "allex-cores"},
+{"username": "allex", "namespace": null, "group": "clientcorelibs", "type": "git", "user": "git", "server": "github.com", "repogroup": "allex-clientcore-libs"},
+{"username": "allex", "namespace": null, "group": "servercorelibs", "type": "git", "user": "git", "server": "github.com", "repogroup": "allex-servercore-libs"},
+{"username": "communication", "namespace": null, "group": "services", "type": "npm", "user": "git", "server": "github.com", "repogroup": "communication-services"},
+{"username": "communication", "namespace": "data", "group": "services", "type": "npm", "user": "git", "server": "github.com", "repogroup": "communication-data-services"},
+{"username": "communication", "namespace": null, "group": "libs", "type": "npm", "user": "git", "server": "github.com", "repogroup": "communication-libs"},
+{"username": "mailing", "namespace": null, "group": "services", "type": "npm", "user": "git", "server": "github.com", "repogroup": "mailing-services"},
+{"username": "mailing", "namespace": null, "group": "libs", "type": "npm", "user": "git", "server": "github.com", "repogroup": "mailing-libs"},
+{"username": "test", "namespace": null, "group": "services", "type": "npm", "user": "git", "server": "github.com", "repogroup": "allex-test-services"},
+{"username": "test", "namespace": "testmailingclusterusers", "group": "services", "type": "npm", "user": "git", "server": "github.com", "repogroup": "allex-test-mailingclusterusers-services"}
+]
